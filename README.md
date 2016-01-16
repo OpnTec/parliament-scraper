@@ -2,7 +2,7 @@
 
 Public Data Scraper for Parliament Data for the EU and other Parliaments
 
-## Ruby based crawler Setup
+## Ruby Based Crawler Setup
 1. Install git (if not present already)
 2. Clone project using `git clone https://github.com/sampritipanda/simple_app.git`
 3. Install Ruby (version >= 2.1) and Bundler
@@ -24,3 +24,11 @@ Public Data Scraper for Parliament Data for the EU and other Parliaments
 1. Scala: a functional programming language on JVM
 2. Akka: a effective framework for asynchronous, non-blocking and event-driven programming in Scala
 3. Spray-client: a light-weighted HTTP client based on Akka Actor model.
+
+##Python Based Crawler Setup
+1. Install the requirements for this crawler `pip install -r requirements.txt`
+2. Run `$ python eu_scraper.py`
+
+##Technologies Used in Python Crawler:
+1. Requests library
+2. lxml library for DOM traversal
