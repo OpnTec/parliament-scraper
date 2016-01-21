@@ -32,3 +32,23 @@ Public Data Scraper for Parliament Data for the EU and other Parliaments
 ###Technologies Used in Python Crawler:
 1. Requests library
 2. lxml library for DOM traversal
+
+##Python-async parser setup
+
+ 1. Create a virtual environment inside `python-async` folder with
+    `virtualenv --python=python3.4 venv`
+ 2. Activate you virtual environment with `source venv/bin/activate`
+ 3. Install all appropriate requirements with `pip install -r
+    requirements.txt`
+ 4. Run the parser with `$ python parser.py`
+
+**Changing the parser behavior**
+
+ - Change `YEARS_TO_PARSE `  in order to parse data from different years
+ - Change `FOLDER_TO_DOWNLOAD` in order to change the name of the folder to download the data into.
+
+###Technologies Used in Python-async parser:
+1. Requests + requests-futures for async requests
+2. threading for async downloading
+3. beautifulsoup4 for DOM parsing
+4. tqdm for progress bar
