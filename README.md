@@ -52,3 +52,9 @@ Public Data Scraper for Parliament Data for the EU and other Parliaments
 2. threading for async downloading
 3. beautifulsoup4 for DOM parsing
 4. tqdm for progress bar
+
+##Python-Based Scraper (pol's scraper)
+This scraper uses the BeautifulSoup package to parse and extract data from parliament's site. The script can also calculate how many pages it has to download based on the number of questions to be scraped.
+
+1. Install the requirements `pip install -r requirements.txt`
+2. Run `$ python scraper.py`
