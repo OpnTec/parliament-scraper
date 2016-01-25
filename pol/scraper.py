@@ -3,7 +3,6 @@
     Requirements:
     - requests (installation: pip install requests)
     - BeautifulSoup (installation: pip install beautifulsoup4)
-    - slate (installation: pip install slate)
 """
 import urllib,urllib2
 from bs4 import BeautifulSoup
