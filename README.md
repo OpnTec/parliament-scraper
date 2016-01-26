@@ -4,7 +4,7 @@ Public Data Scraper for Parliament Data for the EU and other Parliaments
 
 ## Ruby Based Crawler Setup
 1. Install git (if not present already)
-2. Clone project using `git clone https://github.com/sampritipanda/simple_app.git`
+2. Clone project using `git clone https://github.com/fossasia/parliament-scaper.git`
 3. Install Ruby (version >= 2.1) and Bundler
 4. Run `bundle install` to install the required gems
 5. Run the script using `ruby eu_scraper.rb` or `./eu_scraper.rb`
