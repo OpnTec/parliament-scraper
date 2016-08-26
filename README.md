@@ -58,3 +58,12 @@ This scraper uses the BeautifulSoup package to parse and extract data from parli
 
 1. Install the requirements `pip install -r requirements.txt`
 2. Run `$ python scraper.py`
+
+
+##Scrape it all - Generic Scraper(pol's scraper 2)
+This scraper uses the BeautifulSoup package to parse and extract data from parliament's site. The script can also calculate how many pages it has to download based on the number of docs to be scraped.
+
+Generic Scraper - All years, All languages. Scrapes entire database.
+
+1. Install the requirements `pip install -r requirements.txt`
+2. Run `$ python scrape_it_all.py`
