@@ -18,7 +18,7 @@ def getSoup(url):
 
 
 def getFilesLinks(soup):
-    return soup.find_all('div', class_="results")[0].find_all(
+    return soup.find_all('ul', class_="documents")[0].find_all(
         'a', target="_blank")
 
 
