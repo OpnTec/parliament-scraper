@@ -69,8 +69,10 @@ def createDirs(years):
 soup = getSoup(base_url)
 years = getYearsAvailable(soup)
 createDirs(years)
+os.chdir(cwd)
 
 for y in years:
+    os.chdir(cwd)
     os.chdir(y.getText())
     langs = getLangsAvailable(y['href'])
     for l in langs:
