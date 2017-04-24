@@ -14,26 +14,26 @@ Public Data Scraper for Parliament Data for the EU and other Parliaments
 1. Ruby - The Language
 2. Nokogiri - For HTML Parsing
 
-##Scala-based Asynchronous crawler Setup
+## Scala-based Asynchronous crawler Setup
 1. Install sbt, git and latest version of scala(sbt will do the update for you)
 2. ```git clone https://github.com/DengYiping/parliament-scaper.git```
 3. ```sbt run```
 4. sbt will first automatically download the necessary dependencies, and it will run the script.
 
-###Technologies Used in Scala crawler:
+### Technologies Used in Scala crawler:
 1. Scala: a functional programming language on JVM
 2. Akka: a effective framework for asynchronous, non-blocking and event-driven programming in Scala
 3. Spray-client: a light-weighted HTTP client based on Akka Actor model.
 
-##Python Based Crawler Setup
+## Python Based Crawler Setup
 1. Install the requirements for this crawler `pip install -r requirements.txt`
 2. Run `$ python eu_scraper.py`
 
-###Technologies Used in Python Crawler:
+### Technologies Used in Python Crawler:
 1. Requests library
 2. lxml library for DOM traversal
 
-##Python-async parser setup
+## Python-async parser setup
 
  1. Create a virtual environment inside `python-async` folder with
     `virtualenv --python=python3.4 venv`
@@ -47,20 +47,20 @@ Public Data Scraper for Parliament Data for the EU and other Parliaments
  - Change `YEARS_TO_PARSE `  in order to parse data from different years
  - Change `FOLDER_TO_DOWNLOAD` in order to change the name of the folder to download the data into.
 
-###Technologies Used in Python-async parser:
+### Technologies Used in Python-async parser:
 1. Requests + requests-futures for async requests
 2. threading for async downloading
 3. beautifulsoup4 for DOM parsing
 4. tqdm for progress bar
 
-##Python-Based Scraper (pol's scraper)
+## Python-Based Scraper (pol's scraper)
 This scraper uses the BeautifulSoup package to parse and extract data from parliament's site. The script can also calculate how many pages it has to download based on the number of questions to be scraped.
 
 1. Install the requirements `pip install -r requirements.txt`
 2. Run `$ python scraper.py`
 
 
-##Scrape it all - Generic Scraper(pol's scraper 2)
+## Scrape it all - Generic Scraper(pol's scraper 2)
 This scraper uses the BeautifulSoup package to parse and extract data from parliament's site. The script can also calculate how many pages it has to download based on the number of docs to be scraped.
 
 Generic Scraper - All years, All languages. Scrapes entire database.
